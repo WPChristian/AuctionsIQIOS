@@ -36,19 +36,19 @@
 
 /* Begin PBXFileReference section */
 		5790A1A51E3E171A00C41EDE /* AuctionsIQIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuctionsIQIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5790A1A81E3E171A00C41EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5790A1AA1E3E171A00C41EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5790A1A81E3E171A00C41EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AuctionsIQIOS/AppDelegate.swift; sourceTree = "<group>"; };
+		5790A1AA1E3E171A00C41EDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../AuctionsIQIOS/ViewController.swift; sourceTree = "<group>"; };
 		5790A1AD1E3E171A00C41EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5790A1AF1E3E171A00C41EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5790A1AF1E3E171A00C41EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../AuctionsIQIOS/Assets.xcassets; sourceTree = "<group>"; };
 		5790A1B21E3E171A00C41EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5790A1B41E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5790A1B41E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../AuctionsIQIOS/Info.plist; sourceTree = "<group>"; };
 		5790A1B91E3E171A00C41EDE /* AuctionsIQIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionsIQIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5790A1BD1E3E171A00C41EDE /* LoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenTests.swift; sourceTree = "<group>"; };
-		5790A1BF1E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5790A1BD1E3E171A00C41EDE /* LoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginScreenTests.swift; path = ../AuctionsIQIOSTests/LoginScreenTests.swift; sourceTree = "<group>"; };
+		5790A1BF1E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../AuctionsIQIOSTests/Info.plist; sourceTree = "<group>"; };
 		5790A1C41E3E171A00C41EDE /* AuctionsIQIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuctionsIQIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5790A1C81E3E171A00C41EDE /* LoginScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUITests.swift; sourceTree = "<group>"; };
-		5790A1CA1E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5790A1D61E3EBB4200C41EDE /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		5790A1C81E3E171A00C41EDE /* LoginScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginScreenUITests.swift; path = ../AuctionsIQIOSUITests/LoginScreenUITests.swift; sourceTree = "<group>"; };
+		5790A1CA1E3E171A00C41EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../AuctionsIQIOSUITests/Info.plist; sourceTree = "<group>"; };
+		5790A1D61E3EBB4200C41EDE /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginTextField.swift; path = ../AuctionsIQIOS/LoginTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +309,7 @@
 				5790A1AD1E3E171A00C41EDE /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../AuctionsIQIOS;
 			sourceTree = "<group>";
 		};
 		5790A1B11E3E171A00C41EDE /* LaunchScreen.storyboard */ = {
@@ -317,6 +318,7 @@
 				5790A1B21E3E171A00C41EDE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../AuctionsIQIOS;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,9 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoginScreen/Info.plist;
+				INFOPLIST_FILE = AuctionsIQIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackcourse.LoginScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackcourse.AuctionsIQIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -431,9 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LoginScreen/Info.plist;
+				INFOPLIST_FILE = AuctionsIQIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.blackcourse.LoginScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackcourse.AuctionsIQIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
